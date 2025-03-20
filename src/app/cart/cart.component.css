@@ -83,7 +83,7 @@
 .summary-row.total {
   font-weight: bold;
   font-size: 16px;
-  color: #333333;
+  color: #ffe000;
   margin-top: 10px;
   border-top: 1px solid #e0e0e0;
   padding-top: 10px;
@@ -119,13 +119,14 @@
 .quantity-controls span {
   width: 30px;
   text-align: center;
-  font-size: 16px;
+  color: #212121;
+  font-size: 19px;
 }
 
 
 .quantity-controls button {
-  background-color: #ffc107;
-  border: 1px solid #ffc107;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
   width: 30px;
   align-items: center;
   cursor: pointer;
