@@ -2,6 +2,32 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.11.
 
+---
+
+## 🚀 Features
+
+✅ **Add to Cart** – Select burgers and add them to the cart.  
+✅ **Edit Cart Items** – Modify quantities or remove items.  
+✅ **Real-time Price Calculation** – Automatically updates total cost when items are edited.  
+✅ **Responsive UI** – Works smoothly on different devices.  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Angular, TypeScript, HTML, CSS  
+- **State Management**: Angular Services  
+- **Styling**: CSS 
+
+---
+
+## 📦 Installation & Setup
+
+1. **Clone the Repository**
+   ```sh
+   git clone https://github.com/manirathnam98domain/burger-app.git
+   cd burger-app
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

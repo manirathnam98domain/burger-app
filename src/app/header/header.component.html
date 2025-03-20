@@ -1,0 +1,12 @@
+<header class="app-header">
+    <div class="header-content">
+      <div class="menu-icon">
+        <i class="fa fa-bars"></i>
+      </div>
+      <h1 class="app-title" (click)="goToHome()">{{ title }}</h1>
+      <div class="cart-icon" (click)="goToCart()">
+        <i class="fa fa-bell"></i>
+        <span class="cart-count" *ngIf="getCartItemCount() > 0">{{ getCartItemCount() }}</span>
+      </div>
+    </div>
+  </header>
