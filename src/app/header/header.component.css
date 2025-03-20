@@ -1,0 +1,51 @@
+.app-header {
+  background-color: #ffe000;
+  border-radius: 4px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:5px 23px 10px 10px;
+}
+
+.menu-icon,
+.cart-icon {
+  font-size: 20px;
+  color: #212121;
+  cursor: pointer;
+}
+
+.app-title {
+  font-size: 18px;
+  color: #212121;
+  cursor: pointer; 
+  margin-right: 16rem;
+}
+
+.cart-icon {
+  position: relative;
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: #ff0000;
+  color: #000;
+  border-radius: 50%;
+  font-size: 12px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
